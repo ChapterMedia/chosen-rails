@@ -1,4 +1,4 @@
-class AbstractChosen
+class window.AbstractChosen
   constructor: (@form_field, @options={}) ->
     return unless AbstractChosen.browser_is_supported()
     @is_multiple = @form_field.multiple
